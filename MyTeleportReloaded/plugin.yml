@@ -1,0 +1,28 @@
+﻿name: MyTeleportReloaded
+version: 1.0.0
+main: org.whitehack97.MyTeleport.MyTeleportReloaded
+description: MyTeleport Reloaded.
+commands:
+  MyTeleport.Main:
+    description: §aMyTeleport Reloaded main command
+    aliases: [mt, mteleport, myteleport]
+  MyTeleport.teleport:
+    description: §aMyTeleport Reloaded main command
+    aliases: [텔포, 이동]
+permissions:
+  myteleport.*:
+    description: Give all access about myteleport permissions.
+    default: false
+  myteleport.view:
+    description: Give access to show MyTeleport all commands
+    default: true
+  myteleport.teleport:
+    description: Give access to teleport another players.
+    default: true
+  myteleport.denyplayer:
+    description: Give access to deny teleport from another players.
+    default: true
+  myteleport.bypass:
+    description: Give access teleport to all players.
+    default: false
+  
